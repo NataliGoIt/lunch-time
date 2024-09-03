@@ -3,15 +3,17 @@ import Hero from './components/Hero';
 import Map from './components/Maps';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Cart from './components/Cart';
 function App() {
   return (
     <Router>
       {/* <Nav/> */}
+      <Cart/>
       <Routes>
         <Route path="/" element={<Hero />} />
-        {/* <Route path="/menu" element={<Menu items={menuItems} />} />
-        <Route path="/special-offers" element={<SpecialOffers />} />
-        <Route path="/contact" element={<Contact />} /> */}
+        {/* <Route path="/menu" element={<Menu items={menuItems} />} /> */}
+        {/* <Route path="/special-offers" element={<SpecialOffers />} /> */}
+        {/* <Route path="/contact" element={<Contact />} /> */}
       </Routes>
       <Contact />
       <Map/>

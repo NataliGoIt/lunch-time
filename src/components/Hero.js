@@ -1,15 +1,11 @@
 import React from "react";
 import "../styles/Hero.css"
-import Nav from "./Navigation";
-import SocialMedia from "./SocialMedia";
-import Logo from "./Logo";
+import Header from "./Header";
 
 const Hero = () => {
     return (
         <>
-        <Nav />
-        <Logo />
-        <SocialMedia />
+        <Header/>
         <section className="hero">
             <h1>Назва піци</h1>
             <p>тут буде опис тут буде опис тут буде опис тут буде опис тут буде опис тут буде опис тут буде опис</p>
