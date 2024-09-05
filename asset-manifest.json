@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/NataliGoIt/lunch-time.git/static/css/main.41188e29.css",
+    "main.js": "/NataliGoIt/lunch-time.git/static/js/main.2a6a5bfd.js",
+    "index.html": "/NataliGoIt/lunch-time.git/index.html",
+    "main.41188e29.css.map": "/NataliGoIt/lunch-time.git/static/css/main.41188e29.css.map",
+    "main.2a6a5bfd.js.map": "/NataliGoIt/lunch-time.git/static/js/main.2a6a5bfd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.41188e29.css",
+    "static/js/main.2a6a5bfd.js"
+  ]
+}
