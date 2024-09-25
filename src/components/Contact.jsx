@@ -1,23 +1,17 @@
 import React from "react";
+import SocialMedia from "./SocialMedia";
 // import "../styles/Contact";
 const Contact = () =>{
     return(
         <>
         <section>
-            <h1>Контакти</h1>
+            <h1>Contact Us</h1>
+            <a href="https://www.google.com/maps?q=46.754351104307716, 23.595156882382632">Cluj-Napoca, Str. Meteor 3, 400347, România</a>
          <ul>
-            <li><a href="#">Клуж-Напока</a></li>
-            <li><a href="#">вул. Незнаюяка 17</a></li>
+            <li><a href="tel:+40771559725">+40771559725</a></li>
+            <li><a href="tel:+40774622993">+40774622993</a></li>
          </ul>
-         <ul>
-            <li><a href="#">+40000000</a></li>
-            <li><a href="#">+40000000</a></li>
-         </ul>
-         <ul>
-            <li><a href="#">W</a></li>
-            <li><a href="#">T</a></li>
-            <li><a href="#">I</a></li>
-         </ul>
+         <SocialMedia/>
         </section>
         </>
     )

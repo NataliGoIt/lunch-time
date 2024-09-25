@@ -3,12 +3,8 @@ import Hero from './components/Hero';
 import Map from './components/Maps';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import Cart from './components/Cart';
-import products from './components/products'
+import Menu from './components/Menu';
 
-function handleAddToCart(ha){
-  return ha;
-}
 function App() {
   return (
     <Router>
@@ -19,16 +15,7 @@ function App() {
         {/* <Route path="/special-offers" element={<SpecialOffers />} /> */}
         {/* <Route path="/contact" element={<Contact />} /> */}
       </Routes>
-      {products.map((product) => (
-        <Cart
-          key={product.id}
-          title={product.title}
-          description={product.description}
-          price={product.price}
-          image={product.image}
-          onAddToCart={() => handleAddToCart(product)}
-        />
-      ))}
+      <Menu/>
       <Contact />
       <Map/>
       <Footer/>
