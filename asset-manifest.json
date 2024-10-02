@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/NataliGoIt/lunch-time.git/static/css/main.cd1ca442.css",
+    "main.js": "/NataliGoIt/lunch-time.git/static/js/main.eaaa942a.js",
+    "static/media/logo.svg": "/NataliGoIt/lunch-time.git/static/media/logo.c372c2145bad01f0b44c05694e4c959c.svg",
+    "static/media/phone.svg": "/NataliGoIt/lunch-time.git/static/media/phone.41ad9ee9b4479f3c0c5a06904a6c0901.svg",
+    "static/media/whatsapp.svg": "/NataliGoIt/lunch-time.git/static/media/whatsapp.bb3e519cfa8cd0983e74e1bdc418d0e4.svg",
+    "static/media/instagram.svg": "/NataliGoIt/lunch-time.git/static/media/instagram.152db2822cb6701edb9665eb34057c19.svg",
+    "index.html": "/NataliGoIt/lunch-time.git/index.html",
+    "main.cd1ca442.css.map": "/NataliGoIt/lunch-time.git/static/css/main.cd1ca442.css.map",
+    "main.eaaa942a.js.map": "/NataliGoIt/lunch-time.git/static/js/main.eaaa942a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cd1ca442.css",
+    "static/js/main.eaaa942a.js"
+  ]
+}
