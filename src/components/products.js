@@ -168,23 +168,23 @@ export const pizza = [
     image: "#",
   },
   ];
-  export const otherProducts = [
-    {
-      id: 1,
-      title: "",
-      description: "",
-      price: 12,
-    },
-    {
-      id: 2,
-      title: "",
-      description: "",
-      price: 12,
-    },
-    {
-      id: 3,
-      title: "",
-      description: "",
-      price: 12,
-    },
-  ]
+  // export const otherProducts = [
+  //   {
+  //     id: 1,
+  //     title: "",
+  //     description: "",
+  //     price: 12,
+  //   },
+  //   {
+  //     id: 2,
+  //     title: "",
+  //     description: "",
+  //     price: 12,
+  //   },
+  //   {
+  //     id: 3,
+  //     title: "",
+  //     description: "",
+  //     price: 12,
+  //   },
+  // ]
