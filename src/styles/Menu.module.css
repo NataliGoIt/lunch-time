@@ -1,0 +1,16 @@
+/* .cartTextContainer{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+} */
+.cartTextButton{
+    width: fit-content;
+    padding: 8px;
+ background-color: inherit;
+ border: 1px solid #fff;
+border-radius: 25px;
+ color: #fff;
+}
+.cartTextSize{
+    font-size: 12px;
+}

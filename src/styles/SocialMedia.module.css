@@ -1,0 +1,21 @@
+.socialMedia{
+    display: none;
+}
+    @media (min-width: 677px){
+        .socialMedia{
+            display: block;
+            min-width: 135px;
+            
+         }
+        .socialMediaList{
+            display: flex;
+        }
+        .socialMediaIkon{
+width: 28px;
+height: 28px;
+fill: #fff;
+        }
+        .socialMediaItem:not(:last-child){
+            padding-right: 16px;
+        }
+    }

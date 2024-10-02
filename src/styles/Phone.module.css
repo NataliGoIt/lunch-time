@@ -1,0 +1,19 @@
+.phone{
+    width: 18px;
+    height: 18px;
+    stroke:#fff;
+    fill: #fff;
+    margin-right: 8px;
+}
+
+.phoneNumber{
+    display: flex;
+    align-items: center;
+    color: inherit;
+}
+@media (min-width:677px){
+.phone{
+    width: 22px;
+    height: 22px;
+}
+}

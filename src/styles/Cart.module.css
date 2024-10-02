@@ -1,6 +1,4 @@
 .card {
-    border: 1px solid #ddd;
-    border-radius: 8px;
     padding: 20px;
     max-width: 400px;
     margin: 20px auto;
@@ -9,11 +7,13 @@
   }
   .img{
     display: block;
-    width: 300px;
-    height: 300px;
+    width: 230px;
+    height: 230px;
     margin: 0 auto;
   }
   .card:hover {
+    border-radius: 8px;
+    border: 1px solid #ddd;
     transform: translateY(-5px);
   }
   
@@ -31,21 +31,63 @@
   
   .sizesContainer {
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
   }
-  
+  .sizesContainer:not(:last-child){
+    margin-right: 12px;
+  }
   .sizeCard {
     border-top: 1px solid #eee;
     padding: 10px 0;
   }
   
-  .sizeCard:first-child {
-    border-top: none;
-  }
-  
+
   .sizeCard p {
     margin: 5px 0;
     font-size: 14px;
     color: #444;
   }
+  
+  /* .title {
+    font-size: 24px;
+    margin-bottom: 8px;
+  }
+  
+  .description {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 16px;
+  } */
+  
+  .sizeButtons {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  .sizeButton {
+    background-color: inherit;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    color: #ccc;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sizeButton:hover {
+    background-color: #94ff57;
+  }
+  .sizeButton:not(:last-child){
+margin-right: 10px;
+  }
+  .active {
+    background-color: #b1ff33;
+    color: white;
+  }
+.sizeDetails:not(:last-child){
+margin-bottom: 8px;
+}
   

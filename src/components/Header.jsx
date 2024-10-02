@@ -1,14 +1,16 @@
 import React from "react";
 import Logo from "./Logo";
-import Nav from "./Navigation";
+import SocialMedia from "./SocialMedia"
+import Phone from "./Phone";
+import styles from "../styles/Header.module.css"
+import style from "../index.module.css"
 const Header = () =>{
     return(
-        <>
-        <div>
+        <section className={styles.header}>
+            <SocialMedia/>
             <Logo/>
-            <Nav/>
-        </div>
-        </>
+            <Phone/>
+        </section>
     )
 }
 export default Header;

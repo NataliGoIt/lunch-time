@@ -1,13 +1,14 @@
 import React from "react";
 import PizzaMenu from "./PizzaMenu";
-import DrinkMenu from "./DrinkMenu";
+// import DrinkMenu from "./DrinkMenu";
+import style from "../index.module.css"
 const Menu = () =>{
  return(
     <>
-    <div>
+    <div className={style.container}>
         <h2>Menu</h2>
         <PizzaMenu/>
-        <DrinkMenu/>
+        {/* <DrinkMenu/> */}
         
     </div>
     </>

@@ -1,7 +1,7 @@
 import React from "react";
 import Cart from './Cart';
 import {pizza} from './products'
-// import style from '../styles/Menu.module.css'
+// import styles from '../styles/Menu.module.css'
   const PizzaMenu = () =>{
     return(
         <div>
@@ -11,11 +11,7 @@ import {pizza} from './products'
       key={product.id}
       title={product.title}
       description={product.description}
-      sizes={ product.sizes.map((e, index) =>( 
-          <p key={index}>
-          Size: {e.size}, Title: {e.title}, Price: {e.price}
-        </p>
-        ))}
+      sizes={ product.sizes}
       image={product.image}
     />
   ))}
@@ -24,4 +20,5 @@ import {pizza} from './products'
   }
   export default PizzaMenu;
 
- 
+  // <p>{e.size}</p>
+  // <p>{e.price}</p>
